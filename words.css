@@ -1,0 +1,166 @@
+/*
+# means id
+. means class
+*/
+
+@font-face {
+    font-family: 'SoulMission';
+    src: url('SoulMission.ttf');
+}
+
+
+@font-face {
+    font-family: 'FreeMonoBold';
+    src: url('FreeMonoBold.ttf');
+}
+
+
+@font-face {
+    font-family: 'MyriadPro-Bold';
+    src: url('myriadpro-bold.ttf');
+}
+
+
+#canvas1 { 
+    border:1px solid #000000;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #1f253d;
+} 
+
+.typeface-js{width: 100%;}
+
+.spaceBetween{height:5px;}
+
+.homonymsLinks{ color: #cc324b;}
+.homophonesLinks{ color: #e64c65;}
+.homographsLinks{ color: #99CCFF;}
+.heteronymsLinks{ color: #11a8ab;}
+.antagonymsLinks{ color: #4fc4f6;}
+
+#topMenu{ margin-left:2px;}
+
+#theCopyId{ background-color: #50597b; border-radius: 5px; padding: 5px; margin-left: 5px;
+    margin-right: 5px; color: #ffffff;
+       overflow:auto;
+/*height:auto;
+min-height:50px;
+height:auto !important;        /* for IE as it does not support min-height */
+*/
+}
+
+#mainWord{ background-color: #6495ed; border-radius: 5px; padding: 5px; margin-left: 5px;
+    margin-right: 5px; min-height: 20px;}
+#ofImportanceWords{ background-color: #e64c65; border-radius: 5px; padding: 5px; margin-left: 5px;
+    margin-right: 5px; color: #ffffff; min-height: 20px;}
+
+#theDefiniton{ background-color: #6495ed;
+	/*background-image: url("papar_texture_thumb03.jpg");  */
+	border-radius: 5px; min-height: 20px; position: relative; padding: 5px; margin-left: 5px; margin-right: 5px;
+
+}
+
+#testOutput{ background-color: #e0ffff; padding-left: 4px;}
+
+
+#homonymsMenuTitleMenu{ float: left;  background-color: #fbdbe0; width: 50px;}
+#homonymsMenuColorBlock{ float: left;  background-color: #cc324b; width: 20px;}
+#homophonesMenuColorBlock { float: left;  background-color: #e64c65; width: 20px;}
+#homographsMenuColorBlock { float: left;  background-color: #99CCFF; width: 20px;} 
+#heteronymsMenuColorBlock { float: left;  background-color: #11a8ab; width: 20px;}
+#antagonymsMenuColorBlock { float: left;  background-color: #4fc4f6; width: 20px;}
+#menuWithHelpIcon { float: left; width: 20px;}
+
+#homonymsMenuContainer{ float: left;  background-color: #cc324b;}
+#homophonesMenuContainer{ float: left;  background-color: #e64c65;}
+#homographsMenuContainer{ float: left; background-color: #99CCFF; }
+#heteronymsMenuContainer{ float: left; background-color: #11a8ab; }
+#antagonymsMenuContainer{ float: left; background-color: #4fc4f6; }
+
+#homonymsMenu, #homophonesMenu, #homographsMenu, #heteronymsMenu, #antagonymsMenu {
+    color: #ffffff; text-decoration: none;
+}
+
+/*
+#aboutMenu, #contactMenu {
+    color: #000000; text-decoration: none;
+}  */
+
+
+/*Begin: This is to manage the rollover affect for the links at the bottom*/
+#testOutput a:link{
+	 color: #000000; text-decoration: none;
+}
+
+#testOutput a:hover{
+	 color: #123456; text-decoration: underline;
+}
+
+#testOutput a:visited{
+	 color: #000000; text-decoration: none;
+}
+/*End: This is to manage the rollover affect for the links at the bottom*/
+
+
+
+#linkNameContact {
+	display: inline-block;
+}
+#linkNameContact a:link{
+	 color: #ffffff; text-decoration: none;
+}
+#linkNameContact a:hover{
+	color: #123456; text-decoration: underline;
+}
+
+#linkNameContact a:visited{
+	 color: #ffffff; text-decoration: none;
+}
+
+
+
+/*
+#homonymsDescription{color: #cc324b; }
+#homophonesDescription { color: #e64c65; }
+#homographsDescription{color: #1a4e95; }
+#heteronymsDescription { color: #11a8ab; }
+#antagonymsDescription { color: #4fc4f6; }
+*/
+
+#homonymsDescription{padding-top: 8px;}
+#homophonesDescription {padding-top: 8px; }
+#homographsDescription{padding-top: 8px;}
+#heteronymsDescription { padding-top: 8px;}
+#antagonymsDescription { padding-top: 8px;}
+
+/* Cneter Image */
+
+.centeredPreLoader {
+	width: 42px;
+	height: 42px;
+	position:relative;
+}
+
+.centeredPreLoaderVideo {
+	width: 380px;
+	height: 420px;
+	position:relative;
+}
+
+.scroll-pane
+{
+	width: 100%;
+	height: 100px;
+	overflow: auto;
+}
+
+/*This is to style the tool tips*/
+label {
+	display: inline-block;
+	width: 15em;
+}
+
